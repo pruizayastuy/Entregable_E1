@@ -1,0 +1,66 @@
+/* Global */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 10rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+/* Header */
+.header-web {
+    display: flex;
+    height: 25rem;
+}
+
+.box-1 {
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #4863A0;
+    margin: 0;
+}
+
+.box-2 {
+    flex-basis: 50%;
+    background-image: url(../img/header_image.jpg);
+    background-position: center top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+}
+
+.nombre-web {
+    color: white;
+    text-align: center;
+    padding: 0; 
+    margin: 0; 
+}
+
+.subtitulo-web {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
