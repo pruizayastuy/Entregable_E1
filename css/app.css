@@ -8,11 +8,11 @@ html {
     box-sizing: inherit;
 }
 
-h1 {
+h1, h3 {
     font-family: "Bebas Neue", sans-serif;
 }
 
-h2, h3, h4, a {
+h2, h4, a, b {
     font-family: "Raleway", sans-serif;
 }
 
@@ -20,8 +20,22 @@ h1 {
     font-size: 10rem;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 h3 {
     font-size: 2.5rem;
+    font-weight: normal;
+    color: black;
+    opacity: 80%;
+}
+
+h4 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 3rem;
 }
 
 a {
@@ -31,6 +45,7 @@ a {
 }
 
 /* Header */
+
 .header-web {
     display: flex;
     height: 25rem;
@@ -75,6 +90,7 @@ a {
 
 .contenedor-navegacion {
     padding-top: 1rem;
+    padding-bottom: 1rem;
     border-top: 2px solid #e1e1e1;
     border-bottom: 2px solid #e1e1e1;
 }
@@ -96,4 +112,82 @@ a {
 
 .contenedor-principal a:hover {
     color: #4863A0;
+}
+
+/* Sobre empresa */
+
+.sobre-empresa  {
+
+    margin-top: 6rem;
+    height: 50rem;
+    display: flex;
+}
+
+.sobre-empresa h2 {
+
+    margin-top: 23rem;
+    margin-left: 4rem;
+}
+
+.sobre-empresa h4 {
+
+    margin-left: 4rem;
+}
+
+.box-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin: 0;
+    width: 50%;
+    height: 50vh;
+}
+
+
+.box-4{
+    margin-top: 5.5rem;
+    flex-basis: 50%;
+    flex: 1;
+    background-image: url(../img/empresa_imagen.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80%;
+}
+
+/* Footer */
+
+.footer-main{
+    margin-top: 2rem;
+    padding-top: 5rem;
+    border-top: 2px solid #e1e1e1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding-bottom: 10rem;
+}
+
+.categoria{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 1.5rem;
+    text-align: center;
+    border-left: 2px solid #e1e1e1;
+    padding-left: 1rem; 
+}
+
+.navegacion{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 2rem;
+    align-items:start;
+}
+
+
+.navegacion a{
+    font-size: 1.5rem;
 }
