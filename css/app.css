@@ -300,6 +300,161 @@ a {
     background-image: url('../img/noticia_colaborador_2.jpg');
 }
 
+/* Proyectos */
+
+.galeria-proyectos {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.proyecto {
+    margin: 1rem;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+}
+
+.proyecto a {
+    color: white;
+}
+
+.info-proyecto h4 {
+    color: white;
+}
+
+.titulo-proyectos {
+    margin-top: 6rem;
+    margin-left: 3rem;
+  }
+
+.proyecto:nth-child(1) {
+    background-image: url(../img/proyecto_1.png);
+    background-size: cover;
+    height: 75rem;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.proyecto:nth-child(2) {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url(../img/proyecto_2.jpg);
+    height: 30rem;
+}
+
+.proyecto:nth-child(3) {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-image: url(../img/proyecto_3.jpg);
+    
+}
+
+.proyecto:nth-child(4) {
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url(../img/proyecto_4.jpg);
+    height: 40rem;
+
+}
+
+.proyecto:nth-child(5) {
+    margin-top: 8rem;
+    margin-bottom: 15rem;    
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-image: url(../img/proyecto_5.jpg);
+}
+
+.info-proyecto {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #4863A0;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.info-proyecto:hover {
+    background-color: #6078b8;
+}
+
+.info-proyecto h4 {
+    color: white;
+    font-weight: bold;
+}
+
+/* Proyecto 1 */
+
+.imagen-proyecto {
+    background-image: url(../img/proyecto_1_cover.jpeg);
+    background-size: cover;
+    height: 80rem;
+}
+
+.titulo-proyecto1 {
+    margin-top: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #e1e1e1;
+    padding: 3rem;
+    margin-bottom: 4rem;
+}
+
+.descripcion-proyecto1 {
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+
+.flex-proyecto {
+    display: flex;
+    height: 35rem;
+}
+
+.box-7 {
+    flex-basis: 50%;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-right: 7rem;
+}
+
+.box-8 {
+    flex-basis: 50%;
+    background-image: url(../img/imagen2_proyecto.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    width: 50%;
+    margin-right: 5rem;
+}
+
+.empresas-colab h4 {
+    margin-bottom: 10rem;
+}
+
+.empresas-colaboradoras {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
 /* Footer */
 
 .footer-main{
