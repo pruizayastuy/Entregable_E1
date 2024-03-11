@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTech 4.0 - Contacto</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<!--Header-->
+
+    <header>
+        <section class="header-web">
+            <div class="box-1">
+                <h1 class="nombre-web">i-Tech<span> 4.0</span></h1>
+                <h3 class="subtitulo-web">Expertos en digitalización</h3>
+            </div>
+            <div class="box-2"></div>
+        </section>
+    </header>
+    <div class="contenedor-navegacion">
+        <nav class="contenedor-principal">
+            <a href="index.html">Inicio</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="noticias.html">Talento</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </div>
+
+<!--Formulario de contacto-->
+
+<main class="formularios">
+        <h2>Formulario de contacto</h2>
+    <div class="formularios-contacto-blog">
+        <article class="formulario-contacto">
+            <form class ="cuerpo-formulario" action="#" method="get">
+                <div class="nombre-apellido">
+                    <label class="titulo-nombre" for="campo-nombre"><h5>Nombre: </h5></label>
+                    <h5><input class="campo-nombre" id="campo-nombre" type="text" name="nombre" 
+                        placeholder="Escribe tu nombre" required><br></h5>
+                    
+                    <label class="titulo-apellido" for="campo-apellidos"><h5>Apellidos: </h5></label>
+                    <h5><input class="campo-apellido" id="campo-apellidos" type="text" name="apellidos" 
+                        placeholder="Escribe tu apellido" required><br></h5>
+                </div>
+                <div class="mail-telefono">
+                    <label class="titulo-mail" for="campo-mail"><h5>Mail: </h5></label>
+                    <h5><input class="campo-mail" id="campo-mail" type="text" name="mail" placeholder="Escribe tu correo" 
+                        required><br></h5>
+            
+                    <label class="titulo-telefono" for="campo-telefono"><h5>Teléfono: </h5></label> 
+                    <h5><input class="campo-telefono" id="campo-telefono" type="text" name="telefono"  
+                        placeholder="Escribe tu teléfono"><br></h5> 
+                </div>
+                <div class="empresa-contacto">
+                    <label class="titulo-empresa" for="campo-empresa"><h5>Empresa: </h5></label> 
+                    <h5><input class="campo-empresa" id="campo-empresa" type="text" name="nombre" 
+                        placeholder="¿Cuál es tu empresa?"><br></h5> 
+            
+                    <label class="titulo-contacto" for="campo-select"><h5>Motivo: </h5></label>
+
+                    <select class="campo-contacto" id="campo-select">
+                        <optgroup class="grupo-contacto" label="Motivo de contacto">
+                            <option class="consulta" value="consulta">Información sobre la empresa</option> 
+                            <option value="colaboracion">Colaboración en proyecto</option> 
+                            <option value="producto">Consulta de producto/servicio</option> 
+                            <option value="servicio">Servicio técnico</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <h5>Mensaje: </h5>
+                <textarea class="textarea" name="textarea" rows="10" cols="100" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                
+                <input class="boton-enviar" type="submit" value="Enviar">
+            </form>
+        </article>
+
+        <aside class="formulario-blog-newsletter">
+            <article class="seccion-blog">
+                <h3 class="titulo-blog">Subscripción blog</h3>
+                <h5 class="sub-blog">¿Deseas suscribirte al blog?</h5>
+                <div class="opciones-12">
+                    <input class="opcion" type="radio" name="opcion" value="Sí"> Sí<br>
+                    <input class="opcion" type="radio" name="opcion" value="No"> No<br>
+                </div>
+            </article>
+            <article class="seccion-newsletter">
+                <h3 class="titulo-newsletter">Subscripción newsletter</h3>
+                <h5 class="sub-blog">¿Deseas suscribirte a la newsletter?</h5>
+                <div class="opciones-12">
+                    <input class="opcion" type="radio" name="opcion" value="Sí"> Sí<br>
+                    <input class="opcion" type="radio" name="opcion" value="No"> No<br>
+                </div>
+                <h5 class="sub-blog">¿Qué contenido te interesa?</h5>
+                <div class="opciones-345">
+                    <input class="opcion" type="checkbox" name="moto" value="1"> Noticias de la empresa<br> 
+                    <input class="opcion" type="checkbox" name="moto" value="1"> Noticias tecnológicas<br> 
+                    <input class="opcion" type="checkbox" name="moto" value="1"> Noticias industriales<br> 
+                </div>
+            </article>
+        </aside>
+    </div>
+</main>
+
+<!--Footer-->
+
+<footer class="site-footer">
+    <div class="footer-main">
+        <article class="categoria">
+            <h3>Conoce nuestra empresa</h3>
+            <nav class="navegacion">
+                <a href="#">Tecnologías usadas</a>
+                <a href="#">Sectores de actuación</a>
+                <a href="#">Proyectos futuros</a>
+                <a href="#">Localizaciones de sedes</a>
+                <a href="#">Empresas colaboradoras</a>
+            </nav>
+        </article>
+        <article class="categoria">
+            <h3>Contacto y RRSS</h3>
+            <nav class="navegacion">
+                <a href="#">Teléfono: 944 628 376</a>
+                <a href="#">Síguenos en Instagram</a>
+                <a href="#">Síguenos en Twitter</a>
+            </nav>
+        </article>
+        <article class="categoria">
+            <h3>Blog y newsletter</h3>
+            <nav class="navegacion">
+                <a href="#">Blog: último post</a>
+                <a href="#">Newsletter industrial</a>
+                <a href="#">Newsletter informática</a>
+                <a href="#">Subscríbete</a>
+            </nav>
+        </article>
+    </div>
+</footer>
+</body>
+</html>
