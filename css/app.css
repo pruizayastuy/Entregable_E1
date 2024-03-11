@@ -564,13 +564,13 @@ textarea, optgroup, optgroup option:checked {
     margin-left: 3rem;
 }
 
-.opciones-12 {
+.opciones-12, .opciones-34 {
     margin-left: 6rem;
     font-family: "Raleway", sans-serif;  
     font-size: 1.5rem; 
 }
 
-.opciones-345 {
+.opciones-567 {
     margin-left: 6rem;
     margin-bottom: 5rem;
     font-family: "Raleway", sans-serif;  
