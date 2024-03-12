@@ -450,9 +450,16 @@ a {
 }
 
 .empresas-colaboradoras {
-    margin-top: 7rem;
-    margin-bottom: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
     margin-left: 3rem;
+}
+
+.tabla1 {
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: 9rem;
+    margin-bottom: 10rem;
 }
 
 /* Contacto */
