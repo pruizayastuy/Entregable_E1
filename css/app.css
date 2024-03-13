@@ -157,13 +157,10 @@ a {
 
 .box-4{
     margin-top: 5.5rem;
+    margin-left: 3rem;
     flex-basis: 50%;
     flex: 1;
-    background-image: url(../img/empresa_imagen.jpg);
-    background-position: center center; 
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 80%;
+    height: 100%;
 }
 
 /* Historia y expansión */
@@ -195,19 +192,17 @@ a {
     justify-content: center;
     text-align: left;
     margin:1rem;
+    margin-right: 7rem;
     width: 50%;
     height: 50vh;
 }
 
 
 .box-5{
+    margin-left: 3rem;
     margin-top: 5.5rem;
     flex-basis: 50%;
     flex: 1;
-    background-image: url(../img/mapa_mundial.jpg);
-    background-position: center center; 
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 80%;
 }
 
@@ -230,6 +225,7 @@ a {
 .titulo-seccion-noticias {
     width: 100%;
     margin-top: 10rem;
+    margin-left: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -402,12 +398,6 @@ a {
 
 /* Proyecto 1 */
 
-.imagen-proyecto {
-    background-image: url(../img/proyecto_1_cover.jpeg);
-    background-size: cover;
-    height: 80rem;
-}
-
 .titulo-proyecto1 {
     margin-top: 1rem;
     text-align: center;
@@ -436,13 +426,9 @@ a {
 
 .box-8 {
     flex-basis: 50%;
-    background-image: url(../img/imagen2_proyecto.jpg);
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 35rem;
-    width: 50%;
+    width: 100%;
     margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .empresas-colab h4 {
