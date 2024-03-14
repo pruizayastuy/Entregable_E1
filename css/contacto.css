@@ -1,0 +1,290 @@
+.formularios h2 {
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.formulario-contacto {
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formularios-contacto-blog {
+    margin-left: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre-apellido,
+.mail-telefono,
+.empresa-contacto,
+.motivo-contacto,
+.mensaje {
+    width: 50%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+.titulo-telefono,
+.titulo-apellido,
+.titulo-contacto {
+    margin-left: 3rem;
+}
+
+.campo-contacto {
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+    font-family: "Raleway", sans-serif; 
+    font-size: 1.5rem;  
+    height: 2rem;
+}
+
+.textarea-1, optgroup, optgroup option:checked {
+    font-family: "Raleway", sans-serif;  
+    font-size: 1.5rem;  
+}
+
+.consulta, .boton-enviar {
+    font-family: "Raleway", sans-serif;  
+    font-size: 1.5rem;  
+}
+
+.campo-mail {
+    margin-left: 3rem;
+}
+
+.campo-apellidos {
+    margin-right: 3rem;
+}
+
+
+.nombre-apellido,
+.mail-telefono,
+.empresa-contacto,
+.motivo-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo-nombre,
+.titulo-apellido,
+.titulo-mail,
+.titulo-telefono,
+.titulo-empresa,
+.titulo-contacto {
+    margin-right: 3rem;
+}
+
+.mensaje {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.boton-enviar {
+    width: 10%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.formulario-blog-newsletter {
+    width: 25%;
+    box-sizing: border-box;
+    height: 100%;
+    border-left: 2px solid #e1e1e1;
+}
+
+.formulario-blog-newsletter h3, h5 {
+    margin-left: 3rem;
+}
+
+.opciones-12, .opciones-34 {
+    margin-left: 6rem;
+    font-family: "Raleway", sans-serif;  
+    font-size: 1.5rem; 
+}
+
+.opciones-567 {
+    margin-left: 6rem;
+    margin-bottom: 5rem;
+    font-family: "Raleway", sans-serif;  
+    font-size: 1.5rem; 
+}
+
+.opcion {
+    margin-bottom: 3rem;
+}
+
+.sub-blog {
+    margin-top: 3rem;
+}
+
+@media (max-width: 390px) {
+
+    .formulario-contacto {
+        width: 100%;
+    }
+
+    .formularios-contacto-blog {
+        margin-top: 5rem;
+        margin-left: 6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario-contacto h5 {
+        text-align: center;
+        margin-right: 3rem;
+    }
+
+    .nombre-apellido,
+    .mail-telefono,
+    .empresa-contacto,
+    .motivo-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .formularios-contacto-blog {
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .titulo-telefono,
+    .titulo-apellido,
+    .titulo-contacto,
+    .titulo-mail,
+    .titulo-empresa {
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+
+    .campo-mail {
+        margin-left: 0;
+    }
+
+    .campo-contacto {
+        margin-left: 3rem;
+        margin-right: 0;
+        width: 125%;
+    }
+
+
+    .titulo-mensaje {
+        margin-top: 10rem;
+        text-align: left;
+    }
+
+    .textarea-1 {
+        width: 90%;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .boton-enviar {
+        margin-left: 3rem;
+        width: 20%;
+    }
+
+    .formulario-blog-newsletter {
+        margin-top: 5rem;
+        width: 100%;
+        box-sizing: border-box;
+        height: 100%;
+        border-left: 2px solid #e1e1e1;
+    }
+
+    .seccion-blog,
+    .seccion-newsletter {
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media (min-width: 391px) and (max-width: 768px) {
+
+    .formularios h2 {
+        margin-bottom: 5rem;
+    }
+    .formulario-contacto {
+        width: 50%;
+    }
+
+    .formulario-blog-newsletter {
+        width: 50%;
+    }
+
+    .formulario-blog-newsletter h3, h5 {
+        margin-left: 6rem;
+    }
+    
+
+    .nombre-apellido,
+    .mail-telefono,
+    .empresa-contacto,
+    .motivo-contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formularios-contacto-blog {
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .titulo-nombre,
+    .titulo-telefono,
+    .titulo-apellido,
+    .titulo-contacto,
+    .titulo-mail,
+    .titulo-empresa {
+        margin-left: 3rem;
+        margin-top: 3rem;
+    }
+
+    .campo-nombre,
+    .campo-apellido,
+    .campo-mail,
+    .campo-telefono,
+    .campo-empresa {
+        margin-left: 3rem;
+    }
+
+    .campo-contacto {
+        margin-left: 9rem;
+        margin-right: 0;
+        width: 125%;
+    }
+
+
+    .titulo-mensaje {
+        margin-top: 10rem;
+        margin-left: 9rem;
+        text-align: left;
+    }
+
+
+    .textarea-1 {
+        width: 100%;
+        margin-left: 9rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .boton-enviar {
+        margin-left: 9rem;
+        width: 20%;
+    }
+}

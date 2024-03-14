@@ -1,0 +1,353 @@
+/* Sobre empresa */
+
+.sobre-empresa  {
+
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre-empresa h2 {
+
+    margin-top: 23rem;
+    margin-left: 4rem;
+    text-align: left;
+
+}
+
+.sobre-empresa h4 {
+
+    margin-left: 4rem;
+    text-align: left;
+
+}
+
+.box-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin:1rem;
+    width: 50%;
+    height: 28rem;
+}
+
+
+.box-4{
+    display: flex;
+    flex-direction: row;
+    align-items: left; /* Centrar horizontalmente */
+    justify-content: left; /* Centrar verticalmente */
+    margin: 1rem;
+    height: 100%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.box-4 img {
+    margin-top: 1rem;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+@media (max-width: 390px) {
+
+    .sobre-empresa  {
+        margin-top: 0;
+        flex-direction: column;
+        height: 65rem;
+    }
+    
+    .sobre-empresa h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .sobre-empresa h4 {
+        text-align: center;
+    
+    }
+
+    .box-3 {
+        margin-top: 10rem;
+        align-items: center;
+        width: 90%;
+        height: auto;
+    }
+
+    .box-4 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 1rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 768px) {
+
+    .sobre-empresa {
+        height: 60rem;
+    }
+
+    .box-3 {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .sobre-empresa h4 {
+        text-align: left;
+    }
+
+    .box-4 img {
+        margin-top: 15rem;
+        width: 100%;
+        height: 60%;
+    }
+
+    .sobre-empresa h2 {
+        margin-right: 0;
+    
+    }
+    
+    .sobre-empresa h4 {
+    
+        margin-left: 4rem;
+        text-align: left;
+    
+    }
+}
+
+/* Historia y expansión */
+
+.historia-expansion{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    border-top: 2px solid #e1e1e1;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;        
+}
+
+.historia-expansion h2 {
+
+    margin-top: 15rem;
+    margin-left: 4rem;
+}
+
+.historia-expansion h4 {
+
+    margin-left: 4rem;
+}
+
+.box-6{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin:1rem;
+    width: 50%;
+    height: 80%;
+}
+
+.box-5{
+    margin-top: 6rem;
+    flex-basis: 50%;
+    flex: 1;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80%;
+}
+
+.box-5 img {
+    margin-top: 1rem;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+@media (max-width: 390px) {
+
+    .historia-expansion{
+        margin-top: 40rem; 
+        flex-direction: column;  
+        height: auto;
+    }
+
+    .box-6{
+        text-align: center;
+        margin:1rem;
+        width: 100%;
+        height: 80%;
+    }
+
+    .historia-expansion h2 {
+
+        margin-top: 5rem;
+        text-align: center;
+    }
+    
+    .historia-expansion h4 {
+        text-align: center;
+        margin-right: 7rem;
+    }
+
+}
+
+@media (min-width: 391px) and (max-width: 768px) {
+    .historia-expansion h2 {
+        margin-top: 10rem;
+
+    }
+
+    .box-5 img {
+        margin-top: 15rem;
+        height: 60%;
+        width: 100%;
+    }
+}
+
+/* Noticias */
+
+
+.seccion-noticias {
+    display: flex;
+    margin-left: 3rem;
+    margin-bottom: 10rem;
+    border-top: 2px solid #e1e1e1;
+    flex-wrap: wrap;
+    height: 70rem;
+}
+
+.seccion-noticias h3 {
+    margin-left: 2rem;
+}
+
+.titulo-seccion-noticias {
+    width: 100%;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.noticias-empresa,
+.noticias-tecnologicas,
+.noticias-colaboradores {
+    flex: 1 1 300px;
+    margin: 2rem;
+}
+
+.noticia {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    height: 20rem;
+    padding: 2rem;
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.noticia h4 {
+    font-weight: bold;
+    background-color: #4863A0;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.noticia h4:hover {
+    background-color: #6078b8;
+}
+
+.noticia h5 {
+    font-weight: bold;
+    background-color: #f01e2c;
+    padding: 1rem;
+    margin: 0;
+    width: fit-content;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.noticia a {
+    color: white;
+}
+
+.noticias-empresa .noticia {
+    background-image: url('../img/noticia_empresa.jpg');
+    height: 42rem;
+}
+
+.noticias-tecnologicas .noticia-tecnologica1 {
+    background-image: url('../img/noticia_tecnologica_1.jpg');
+}
+
+.noticias-tecnologicas .noticia-tecnologica2 {
+    background-image: url('../img/noticia_tecnologica_2.png');
+}
+
+.noticias-colaboradores .noticia-colaborador1 {
+    background-image: url('../img/noticia_colaborador_1.jpg');
+}
+
+.noticias-colaboradores .noticia-colaborador2 {
+    background-image: url('../img/noticia_colaborador_2.jpg');
+}
+
+@media (max-width: 390px) {
+
+    .seccion-noticias {
+        margin-left: 0;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        margin-bottom: 15rem;
+    }
+
+    .titulo-seccion-noticias {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 5rem;
+
+    }
+
+    .noticias-empresa,
+    .noticias-tecnologicas,
+    .noticias-colaboradores {
+        margin-top: 5rem;
+    }
+
+    .noticias-empresa h3,
+    .noticias-tecnologicas h3,
+    .noticias-colaboradores h3 {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 5rem;
+    }
+}
+
+
+@media (min-width: 391px) and (max-width: 768px) {
+    .seccion-noticias {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+}
