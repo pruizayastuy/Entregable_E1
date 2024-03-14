@@ -293,24 +293,24 @@
 }
 
 .noticias-empresa .noticia {
-    background-image: url('../img/noticia_empresa.jpg');
+    background-image: url('../images/noticia_empresa.jpg');
     height: 42rem;
 }
 
 .noticias-tecnologicas .noticia-tecnologica1 {
-    background-image: url('../img/noticia_tecnologica_1.jpg');
+    background-image: url('../images/noticia_tecnologica_1.jpg');
 }
 
 .noticias-tecnologicas .noticia-tecnologica2 {
-    background-image: url('../img/noticia_tecnologica_2.png');
+    background-image: url('../images/noticia_tecnologica_2.png');
 }
 
 .noticias-colaboradores .noticia-colaborador1 {
-    background-image: url('../img/noticia_colaborador_1.jpg');
+    background-image: url('../images/noticia_colaborador_1.jpg');
 }
 
 .noticias-colaboradores .noticia-colaborador2 {
-    background-image: url('../img/noticia_colaborador_2.jpg');
+    background-image: url('../images/noticia_colaborador_2.jpg');
 }
 
 @media (max-width: 390px) {

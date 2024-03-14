@@ -19,7 +19,7 @@
 
 .box-2 {
     flex-basis: 50%;
-    background-image: url(../img/header_image.jpg);
+    background-image: url(../images/header_image.jpg);
     background-position: center top; 
     background-repeat: no-repeat;
     background-size: cover;
