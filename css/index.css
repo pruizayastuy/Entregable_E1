@@ -40,8 +40,8 @@
 .box-4{
     display: flex;
     flex-direction: row;
-    align-items: left; /* Centrar horizontalmente */
-    justify-content: left; /* Centrar verticalmente */
+    align-items: left;
+    justify-content: left;
     margin: 1rem;
     height: 100%;
     margin-top: 2rem;
@@ -52,6 +52,7 @@
 
 .box-4 img {
     margin-top: 1rem;
+    margin-left: 3rem;
     max-width: 100%;
     height: auto;
     justify-content: center;
@@ -88,6 +89,10 @@
         margin-left: 1rem;
         height: auto;
     }
+
+    .box-4 img {
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 391px) and (max-width: 768px) {
@@ -109,6 +114,7 @@
 
     .box-4 img {
         margin-top: 15rem;
+        margin-left: 0;
         width: 100%;
         height: 60%;
     }
@@ -243,7 +249,7 @@
 .noticias-empresa,
 .noticias-tecnologicas,
 .noticias-colaboradores {
-    flex: 1 1 300px;
+    flex: 1 1 30rem;
     margin: 2rem;
 }
 
