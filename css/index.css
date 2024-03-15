@@ -176,6 +176,7 @@
 }
 
 .box-5 img {
+    margin-left: 3rem;
     margin-top: 1rem;
     max-width: 100%;
     height: auto;
@@ -188,6 +189,10 @@
         margin-top: 40rem; 
         flex-direction: column;  
         height: auto;
+    }
+
+    .box-5 img {
+        margin-left: 0;
     }
 
     .box-6{
